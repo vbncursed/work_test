@@ -1,0 +1,9 @@
+# zip
+1-19.zip
+
+# dotenv
+.env
+
+# Local virtual environment
+.work/
+work/
