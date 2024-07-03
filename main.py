@@ -72,7 +72,7 @@ async def aggregate_salaries(
     dataset: List[int] = [item["total"] for item in result]
     labels: List[str] = [item["_id"] for item in result]
 
-    return {"dataset": dataset, "labels": labels}
+    return {"dataset": [dataset], "labels": [labels]}
 
 
 # Обработчик текстовых сообщений
